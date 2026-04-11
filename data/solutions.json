@@ -1,32 +1,47 @@
 {
   "Tomato Early Blight": {
-    "organic_solution": "Remove infected lower leaves, improve airflow, and spray diluted neem oil every 5 to 7 days.",
-    "chemical_solution": "Apply a mancozeb-based fungicide according to the label directions.",
-    "confidence_hint": "Demo estimate: 84%"
+    "organic_solution": "Remove infected lower leaves immediately, improve airflow between plants, and spray diluted neem oil (5 ml per litre) every 5–7 days. Mulch the base to prevent soil splash.",
+    "chemical_solution": "Apply a mancozeb-based fungicide (e.g., Dithane M-45) at 2 g/litre every 7–10 days. Alternate with chlorothalonil to prevent resistance.",
+    "confidence_hint": "High confidence"
   },
-  "Powdery Mildew": {
-    "organic_solution": "Use a baking soda spray or neem oil and avoid overhead watering late in the day.",
-    "chemical_solution": "Use a sulfur or potassium bicarbonate fungicide as recommended for the crop.",
-    "confidence_hint": "Demo estimate: 81%"
+  "Tomato Late Blight": {
+    "organic_solution": "Remove and destroy affected plant parts. Apply copper hydroxide spray (3 g/litre) every 5 days. Avoid overhead irrigation and ensure good drainage.",
+    "chemical_solution": "Use a systemic fungicide containing metalaxyl + mancozeb (e.g., Ridomil Gold). Apply at first sign of symptoms and repeat every 7 days in humid conditions.",
+    "confidence_hint": "High confidence"
   },
-  "Leaf Spot": {
-    "organic_solution": "Prune affected leaves, sanitize tools, and use compost tea or copper soap carefully.",
-    "chemical_solution": "Spray a copper oxychloride or chlorothalonil-based fungicide as per guidance.",
-    "confidence_hint": "Demo estimate: 79%"
+  "Tomato Leaf Mold": {
+    "organic_solution": "Increase ventilation and reduce humidity below 85%. Remove infected leaves. Spray potassium bicarbonate solution (10 g/litre) weekly.",
+    "chemical_solution": "Apply chlorothalonil or a trifloxystrobin-based fungicide. Ensure thorough coverage of leaf undersides where the fungus sporulates.",
+    "confidence_hint": "High confidence"
   },
-  "Bacterial Wilt": {
-    "organic_solution": "Remove severely affected plants, rotate crops, and improve soil drainage to reduce spread.",
-    "chemical_solution": "Use a recommended bactericide where applicable and disinfect tools after field work.",
-    "confidence_hint": "Demo estimate: 76%"
+  "Healthy Tomato": {
+    "organic_solution": "Plant looks healthy! Maintain mulching, balanced compost, and weekly scouting. Rotate crops each season to prevent soil-borne disease buildup.",
+    "chemical_solution": "No chemical treatment needed. Apply a preventive copper spray at the start of the rainy season as an optional precaution.",
+    "confidence_hint": "High confidence"
   },
-  "Healthy": {
-    "organic_solution": "The plant looks healthy. Maintain mulching, balanced compost use, and regular scouting.",
-    "chemical_solution": "No chemical treatment is needed right now. Continue preventive farm hygiene.",
-    "confidence_hint": "Demo estimate: 91%"
+  "Banana Sigatoka": {
+    "organic_solution": "Remove and destroy infected leaves below the bunch. Improve drainage and airflow. Apply neem-based bio-fungicide and avoid waterlogging at the base.",
+    "chemical_solution": "Use a propiconazole or mancozeb fungicide spray every 3–4 weeks. Alternate chemical groups to avoid fungicide resistance. Follow label doses carefully.",
+    "confidence_hint": "High confidence"
+  },
+  "Banana Panama Disease": {
+    "organic_solution": "There is no effective cure once infected. Remove and destroy affected plants immediately. Disinfect tools with bleach solution. Replant with Cavendish or Fusarium-resistant varieties.",
+    "chemical_solution": "No chemical cure exists for Panama Disease (Fusarium wilt). Soil solarisation and lime treatment can reduce fungal load before replanting. Consult an agronomist.",
+    "confidence_hint": "High confidence"
+  },
+  "Healthy Banana": {
+    "organic_solution": "Plant looks healthy! Continue mulching with dry leaves, apply banana-specific compost, and monitor weekly for early pest signs.",
+    "chemical_solution": "No chemical treatment required. Preventive foliar sprays of potassium-rich fertiliser can strengthen resistance during the rainy season.",
+    "confidence_hint": "High confidence"
+  },
+  "Uncertain — please retake photo in better lighting": {
+    "organic_solution": "Capture a clearer image in natural daylight with the affected leaf filling the frame. Monitor the plant for 2–3 days and watch for symptom progression.",
+    "chemical_solution": "Do not apply chemicals until the disease is clearly identified. Consult a local agronomist or extension officer.",
+    "confidence_hint": "Low confidence"
   },
   "Unknown": {
-    "organic_solution": "Capture a clearer leaf image in good lighting and monitor the plant for 2 to 3 days.",
-    "chemical_solution": "Avoid spraying chemicals until symptoms are better identified.",
+    "organic_solution": "Capture a clearer leaf image in good lighting and monitor the plant for 2–3 days.",
+    "chemical_solution": "Avoid spraying chemicals until symptoms are better identified. Consult a local agronomist.",
     "confidence_hint": "Demo estimate: 50%"
   }
 }

@@ -1,4 +1,21 @@
-fastapi
-uvicorn[standard]
-python-multipart
-pillow
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.0.0
+
+# ── Image processing ──────────────────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ── ML / Deep learning ────────────────────────────────────────────────────────
+# TensorFlow CPU (default — works on any machine)
+tensorflow-cpu>=2.15.0
+numpy>=1.24.0
+
+# ── Dataset preparation ───────────────────────────────────────────────────────
+kaggle>=1.6.0
+tqdm>=4.66.0
+
+# ── Optional: GPU support ─────────────────────────────────────────────────────
+# Uncomment the line below and remove tensorflow-cpu if you have a CUDA GPU.
+# tensorflow>=2.15.0
