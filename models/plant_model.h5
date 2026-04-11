@@ -1,0 +1,2 @@
+Placeholder model file for the hackathon demo.
+The backend uses a dummy prediction function in backend/model.py.

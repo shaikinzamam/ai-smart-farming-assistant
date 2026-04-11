@@ -1,0 +1,32 @@
+{
+  "Tomato Early Blight": {
+    "organic_solution": "Remove infected lower leaves, improve airflow, and spray diluted neem oil every 5 to 7 days.",
+    "chemical_solution": "Apply a mancozeb-based fungicide according to the label directions.",
+    "confidence_hint": "Demo estimate: 84%"
+  },
+  "Powdery Mildew": {
+    "organic_solution": "Use a baking soda spray or neem oil and avoid overhead watering late in the day.",
+    "chemical_solution": "Use a sulfur or potassium bicarbonate fungicide as recommended for the crop.",
+    "confidence_hint": "Demo estimate: 81%"
+  },
+  "Leaf Spot": {
+    "organic_solution": "Prune affected leaves, sanitize tools, and use compost tea or copper soap carefully.",
+    "chemical_solution": "Spray a copper oxychloride or chlorothalonil-based fungicide as per guidance.",
+    "confidence_hint": "Demo estimate: 79%"
+  },
+  "Bacterial Wilt": {
+    "organic_solution": "Remove severely affected plants, rotate crops, and improve soil drainage to reduce spread.",
+    "chemical_solution": "Use a recommended bactericide where applicable and disinfect tools after field work.",
+    "confidence_hint": "Demo estimate: 76%"
+  },
+  "Healthy": {
+    "organic_solution": "The plant looks healthy. Maintain mulching, balanced compost use, and regular scouting.",
+    "chemical_solution": "No chemical treatment is needed right now. Continue preventive farm hygiene.",
+    "confidence_hint": "Demo estimate: 91%"
+  },
+  "Unknown": {
+    "organic_solution": "Capture a clearer leaf image in good lighting and monitor the plant for 2 to 3 days.",
+    "chemical_solution": "Avoid spraying chemicals until symptoms are better identified.",
+    "confidence_hint": "Demo estimate: 50%"
+  }
+}

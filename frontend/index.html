@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Smart Farming Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Hackathon Prototype</p>
+          <h1>AI Smart Farming Assistant</h1>
+          <p class="hero-text">
+            Detect crop disease from an image, get organic and chemical solutions,
+            and chat with a lightweight farming assistant using text or voice.
+          </p>
+        </div>
+        <div class="hero-badge">
+          <span>FastAPI + Vanilla JS</span>
+          <strong>Voice Ready</strong>
+        </div>
+      </header>
+
+      <main class="dashboard">
+        <section class="card detect-card">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Plant Scan</p>
+              <h2>Disease Detection</h2>
+            </div>
+            <span class="status-pill" id="apiStatus">Backend: waiting</span>
+          </div>
+
+          <div class="upload-panel">
+            <label class="upload-box" for="plantImage">
+              <input type="file" id="plantImage" accept="image/*" />
+              <span>Choose a plant image</span>
+              <small>JPG, PNG, or WEBP leaf photos work best</small>
+            </label>
+
+            <div class="preview-box" id="previewBox">
+              <p>No image selected</p>
+            </div>
+          </div>
+
+          <button id="predictBtn" class="primary-btn">Predict Disease</button>
+
+          <div class="result-grid">
+            <article class="result-card">
+              <p class="label">Predicted Disease</p>
+              <h3 id="diseaseResult">Waiting for analysis...</h3>
+            </article>
+            <article class="result-card">
+              <p class="label">Organic Solution</p>
+              <p id="organicSolution">Upload an image to get a recommendation.</p>
+            </article>
+            <article class="result-card">
+              <p class="label">Chemical Solution</p>
+              <p id="chemicalSolution">A crop-protection suggestion will appear here.</p>
+            </article>
+            <article class="result-card">
+              <p class="label">Confidence</p>
+              <p id="confidenceResult">Demo estimate pending</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card chat-card">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Farmer Help</p>
+              <h2>NLP Chatbot</h2>
+            </div>
+            <button id="voiceBtn" class="ghost-btn" type="button">Start Voice Input</button>
+          </div>
+
+          <div id="chatMessages" class="chat-messages">
+            <div class="message bot">
+              Welcome! Ask me about irrigation, pests, disease, or fertilizer tips.
+            </div>
+          </div>
+
+          <form id="chatForm" class="chat-form">
+            <input
+              type="text"
+              id="chatInput"
+              placeholder="Ask a farming question..."
+              autocomplete="off"
+            />
+            <button type="submit" class="primary-btn">Send</button>
+            <button type="button" id="muteBtn" class="ghost-btn">Voice Reply On</button>
+          </form>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
